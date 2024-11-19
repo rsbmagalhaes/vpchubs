@@ -14,7 +14,7 @@ locals {
     "${var.vpc_hub_2_region}-3" = []
   }
 
-  bits_ahead_subnet_hub = 5
+  bits_ahead_subnet_hub = 3
   hub_private_subnets   = ["ingress", "egress", "teste"]
 
   tg_name-1 = "TG_${var.tg_name}_1"
